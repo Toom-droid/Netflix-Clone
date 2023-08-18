@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bgNetflix {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5eab1b22-c5ea-48b0-8ef4-862b3fa6df2c/c9fed70b-9392-4823-ac65-cc55c369f6dc/AR-es-20230724-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  height: 100vh;
+  width: 100vw;
+}
+
+.bgBrowser {
+  background-image: url("./assets/bgBrowser.jpg");
+  background-repeat: no-repeat;
+}
+
+.browserVignete {
+  background: rgba(0, 0, 0, 0);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 50%,
+    #000000 100%
+  );
+  background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 50%, #000000 100%);
+}
+
+.backdrop {
+  backdrop-filter: brightness(30%);
+  width: 100vw;
+  height: 100vh;
+}
+
+.darkBg {
+  background: rgba(0, 0, 0, 0.767);
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  background-color: black;
+}
+h1 {
+  margin: 0;
+}
